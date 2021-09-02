@@ -1,0 +1,90 @@
+What is Version Control ?
+
+Version Control is a system that records chnages to a file or a set of a file over time so that you can recall specific versions later.These
+versions are recorded in a repository and can be reacalled from the same.There are local, Centalized and Distributed version control systems. 
+
+Why is there need of version control ?
+
+Collaboration - Shared workspace and real-time updates 
+Manage Versions - All versions of code are preserved  
+Rollbacks - Easy rollback  from current version 
+Reduce downtime - Reverse faulty update and save time
+Analyse Project - analyze and compare versions
+
+What is respository ?
+
+A repository(repo) is a directory or a storage space where your project can live .It can be local to a folder or live online host such as github.
+
+Diference between Centalized and Distributes VCS ? 
+Refer to the image 2
+
+
+What is Git ?
+
+Global Information Tracker
+Git is a version controlling software that helps in a non-linear software development.
+Please refer image 3
+
+Explain the workflow of a GIT ?
+Please refer the image 4,5,6
+
+
+How to upload a project on github using git ?
+Follow these steps to project to Github
+
+1) git init
+
+2) git add .
+
+3) git commit -m "Add all my files"
+
+4) git remote add origin https://github.com/yourusername/your-repo-name.git
+
+Upload of project from scratch require git pull origin master.
+
+5) git pull origin master
+
+6) git push origin master
+
+
+Some of the Commands ?
+
+git init - Creates a new git repository
+git clone - creates copy of original repository in your local machine
+git fork - creates a copy of original repository on your github account
+git remote add origin <repo-link> - Let's you add a repository
+git pull origin master - copy all the files from the master branch of remote repository to your local repository
+git push origin master - push your local changes into central repository
+git log - Display all the commits
+git show <hash_code_of Commit> - to display all the info about the commit eg changes in file etc.
+git ls-files - To checking whether all the files is tracked by git or not.
+git branch - list all the branches that are active in your local repository with the higlighted with the * is the branch you are inside.
+git branch <Name_of _the branch> - this commands creates a new branch
+git checkout <Name_of _the branch> - to switch from one branch to another branch
+git merge <Name_of _the branch> - to merge the code of another branch to the current branch
+git rebase master - Update the changes of  master branch code inside our current branch
+git push origin --delete <Name_of _the branch> - Delete the branch of remote repository(means it delete the branch on a github repository)
+git branch -d <Name_of _the branch> - It deletes the branch from local repository.
+git checkout -b <Name_of _the branch> - It creates a new branch and switch to the new branch with the same command
+git branch -m <Name_of _the branch> <Rename_of_the_branch> - It renames the branch name in local repository
+git push origin :<Name_of _the branch> <Rename_of_the_branch> - It changes the branch name on remote repository
+git push -d origin <Name_of _the branch> - Deletes the  branch from remote repository
+git push -f origin <Name_of _the branch> - To forcefully pushes the changes in remote repositiory it deletes all the code from remote repository and all the code from local repository branch (Not recomended at all) 
+
+How did git support Branching ?
+
+Branching is an integral part any Version Control System.Unlike other VCS git doesnot create a copy of existing files for new branch .It points
+to snapshot of the changes you made in the system.
+
+What is merge ?
+Merge integrates the changes made in a differnet branch to one single network.
+
+What is rebase ?
+Rebase is used when changes made in one branch  needs to be reflected in another branch
+
+
+token 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
+
+
+ 
+
